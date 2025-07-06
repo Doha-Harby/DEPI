@@ -8,7 +8,7 @@
 		DName VARCHAR(255) UNIQUE NOT NULL,
 		Manger_Hire_Date DATE NOT NULL,
 		Manger_SSN INT UNIQUE NOT NULL,
-		);
+	)
 
 	CREATE TABLE Employees(
 		SSN INT PRIMARY KEY,
@@ -18,14 +18,14 @@
 		Last_Name VARCHAR(30) NOT NULL,
 		Department_Num INT NOT NULL,
 		Super_SSN INT,
-		)
+	)
 
 	CREATE TABLE Projects(
 		PNumber INT PRIMARY KEY,
 		Pname VARCHAR(100) NOT NULL,
 		Location VARCHAR(100) NOT NULL,
 		Department_Num INT NOT NULL
-		)
+	)
 
 	CREATE TABLE Dependents(
 		Dependent_Name VARCHAR(50) ,
@@ -35,13 +35,13 @@
 	)
 
 	CREATE TABLE Employee_Project (
-    Employee_SSN INT,
-    Project_Number INT,
-    Working_Hours INT,
-    PRIMARY KEY (Employee_SSN, Project_Number),
-    FOREIGN KEY (Employee_SSN) REFERENCES Employees(SSN),
-    FOREIGN KEY (Project_Number) REFERENCES Projects(PNumber)
-	);
+	    Employee_SSN INT,
+	    Project_Number INT,
+	    Working_Hours INT,
+	    PRIMARY KEY (Employee_SSN, Project_Number),
+	    FOREIGN KEY (Employee_SSN) REFERENCES Employees(SSN),
+	    FOREIGN KEY (Project_Number) REFERENCES Projects(PNumber)
+	)
 
 
 	ALTER TABLE Departments
@@ -49,14 +49,14 @@
 
 	ALTER TABLE Employees
 	ADD FOREIGN KEY (Department_Num) REFERENCES Departments(DNUM),
-		FOREIGN KEY (Super_SSN) REFERENCES Employees(SSN)
+	    FOREIGN KEY (Super_SSN) REFERENCES Employees(SSN)
 
 	ALTER TABLE Projects
 	ADD FOREIGN KEY (Department_Num) REFERENCES Departments(DNUM)
 
 	ALTER TABLE Dependents
 	ADD FOREIGN KEY (Employee_SSN) REFERENCES Employees(SSN) ON DELETE CASCADE,
-		PRIMARY KEY (Employee_SSN, Dependent_Name)
+	    PRIMARY KEY (Employee_SSN, Dependent_Name)
 		
 
 	--DROP DATABASE IF EXISTS COMPANY;
