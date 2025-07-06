@@ -28,11 +28,21 @@
 		)
 
 	CREATE TABLE Dependents(
-		Dependent_Name VARCHAR(50) PRIMARY KEY,
+		Dependent_Name VARCHAR(50) ,
 		Gender CHAR(1) CHECK (Gender IN ('M', 'F')) NOT NULL,
 		Birth_Date DATE NOT NULL,
-		Dependent_SSN INT NOT NULL
+		Employee_SSN INT NOT NULL
 	)
+
+	CREATE TABLE Employee_Project (
+    Employee_SSN INT,
+    Project_Number INT,
+    Working_Hours INT,
+    PRIMARY KEY (Employee_SSN, Project_Number),
+    FOREIGN KEY (Employee_SSN) REFERENCES Employees(SSN),
+    FOREIGN KEY (Project_Number) REFERENCES Projects(PNumber)
+	);
+
 
 	ALTER TABLE Departments
 	ADD FOREIGN KEY (Manger_SSN) REFERENCES Employees(SSN)
@@ -45,7 +55,9 @@
 	ADD FOREIGN KEY (Department_Num) REFERENCES Departments(DNUM)
 
 	ALTER TABLE Dependents
-	ADD FOREIGN KEY (Dependent_SSN) REFERENCES Employees(SSN) ON DELETE CASCADE
+	ADD FOREIGN KEY (Employee_SSN) REFERENCES Employees(SSN) ON DELETE CASCADE,
+		PRIMARY KEY (Employee_SSN, Dependent_Name)
+		
 
 	--DROP DATABASE IF EXISTS COMPANY;
 
@@ -89,7 +101,7 @@
 	(2009, 'Supplier Management', 'Giza', 9),
 	(2010, 'Legal Compliance Tool', 'Cairo', 10);
 
-	INSERT INTO Dependents (Dependent_Name, Gender, Birth_Date, Dependent_SSN)
+	INSERT INTO Dependents (Dependent_Name, Gender, Birth_Date, Employee_SSN)
 	VALUES
 	('Ali Jr', 'M', '2010-08-01', 1001),
 	('Mona Jr', 'F', '2015-04-12', 1002),
