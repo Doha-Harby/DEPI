@@ -120,6 +120,19 @@
 	('Mahmoud Jr', 'M', '2011-09-10', 1009),
 	('Dina Jr', 'F', '2019-12-05', 1010);
 
+	INSERT INTO Employee_Project (Employee_SSN, Project_Number, Working_Hours)
+	VALUES
+	(1001, 2003, 20),  -- HR
+	(1002, 2001, 25),  -- IT
+	(1003, 2002, 30),  -- Finance
+	(1004, 2004, 18),  -- Marketing
+	(1005, 2005, 22),  -- Sales
+	(1006, 2006, 19),  -- Support
+	(1007, 2007, 24),  -- Logistics
+	(1008, 2008, 28),  -- R&D
+	(1009, 2009, 21),  -- Procurement
+	(1010, 2010, 26);  -- Legal
+
 	
 	ALTER TABLE Departments
 	ADD CONSTRAINT FK_Departments_Manager
