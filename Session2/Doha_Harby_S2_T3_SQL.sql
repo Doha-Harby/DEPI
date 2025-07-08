@@ -69,14 +69,9 @@
 	FROM Employees
 	WHERE Department_Num = 2;
 
-	SELECT 
-	    E.First_Name,
-	    E.Last_Name,
-	    P.Pname,
-	    EP.Working_Hours
-	FROM Employees E
-	JOIN Employee_Project EP ON E.SSN = EP.Employee_SSN   --searched for join
-	JOIN Projects P ON EP.Project_Number = P.PNumber;
+	SELECT Employee_SSN, COUNT(Project_Number) AS Project_Count
+	FROM Employee_Project
+	GROUP BY Employee_SSN;
 
 	--DROP DATABASE IF EXISTS COMPANY;
 
@@ -132,4 +127,19 @@
 	('Laila Jr', 'F', '2017-05-25', 1008),
 	('Mahmoud Jr', 'M', '2011-09-10', 1009),
 	('Dina Jr', 'F', '2019-12-05', 1010);
+
+	
+	INSERT INTO Employee_Project (Employee_SSN, Project_Number, Working_Hours)
+	VALUES
+	(1001, 2003, 20),  -- HR
+	(1002, 2001, 25),  -- IT
+	(1003, 2002, 30),  -- Finance
+	(1004, 2004, 18),  -- Marketing
+	(1005, 2005, 22),  -- Sales
+	(1006, 2006, 19),  -- Support
+	(1007, 2007, 24),  -- Logistics
+	(1008, 2008, 28),  -- R&D
+	(1009, 2009, 21),  -- Procurement
+	(1010, 2010, 26);  -- Legal
+
 
