@@ -58,6 +58,25 @@
 	ADD FOREIGN KEY (Employee_SSN) REFERENCES Employees(SSN) ON DELETE CASCADE,
 	    PRIMARY KEY (Employee_SSN, Dependent_Name)
 		
+	UPDATE Employees
+	SET Department_Num = 3
+	WHERE SSN = 1002;
+
+	DELETE FROM Dependents
+	WHERE Dependent_Name = 'Dina Jr' AND Employee_SSN = 1010;
+
+	SELECT *
+	FROM Employees
+	WHERE Department_Num = 2;
+
+	SELECT 
+	    E.First_Name,
+	    E.Last_Name,
+	    P.Pname,
+	    EP.Working_Hours
+	FROM Employees E
+	JOIN Employee_Project EP ON E.SSN = EP.Employee_SSN   --searched for join
+	JOIN Projects P ON EP.Project_Number = P.PNumber;
 
 	--DROP DATABASE IF EXISTS COMPANY;
 
