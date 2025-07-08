@@ -69,7 +69,7 @@
 	FROM Employees
 	WHERE Department_Num = 2;
 
-	SELECT Employee_SSN, COUNT(Project_Number) AS Project_Count
+	SELECT Employee_SSN, SUM(Working_Hours) AS Total_Working_Hours, COUNT(Project_Number) AS Project_Count
 	FROM Employee_Project
 	GROUP BY Employee_SSN;
 
