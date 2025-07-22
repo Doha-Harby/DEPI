@@ -564,3 +564,122 @@ GO
 EXEC sp_DiscontinueProduct @ProductID = 100;
 EXEC sp_DiscontinueProduct @ProductID = 100, @ReplacementProductID = 101;
 
+
+
+
+--22
+CREATE OR ALTER FUNCTION dbo.fn_CustomerExists (@CustomerID INT)
+    RETURNS BIT
+      AS
+    BEGIN
+        DECLARE @b BIT = 0;
+        IF EXISTS (SELECT 1 FROM sales.customers WHERE customer_id = @CustomerID)
+            SET @b = 1;
+        RETURN @b;
+    END;
+GO
+
+CREATE OR ALTER FUNCTION dbo.fn_StockAvailable(@StoreID INT, @ProductID INT,@NeedQty INT)
+    RETURNS BIT
+      AS
+    BEGIN
+        DECLARE @b BIT = 0;
+        IF EXISTS (
+            SELECT 1 
+            FROM production.stocks
+            WHERE store_id = @StoreID
+              AND product_id = @ProductID
+              AND quantity >= @NeedQty
+        )
+            SET @b = 1;
+        RETURN @b;
+    END;
+GO
+
+CREATE TYPE dbo.OrderItemType AS TABLE
+(
+    product_id INT,
+    quantity   INT,
+    list_price DECIMAL(10,2) NULL,   
+    discount   DECIMAL(4,2) NULL     
+);
+GO
+
+CREATE OR ALTER PROCEDURE dbo.sp_InsertOrderValidated
+    @CustomerID INT,
+    @StoreID    INT,
+    @StaffID    INT,
+    @OrderDate  DATE = NULL,       
+    @Items dbo.OrderItemType READONLY
+      AS
+    BEGIN
+        IF @OrderDate IS NULL SET @OrderDate = CAST(GETDATE() AS DATE);
+        IF dbo.fn_CustomerExists(@CustomerID) = 0
+            BEGIN
+                RAISERROR('Invalid CustomerID.',16,1);
+                RETURN;
+            END
+
+        IF NOT EXISTS (SELECT 1 FROM sales.stores WHERE store_id = @StoreID)
+        BEGIN
+            RAISERROR('Invalid StoreID.',16,1);
+            RETURN;
+        END
+
+        IF NOT EXISTS (SELECT 1 FROM sales.staffs WHERE staff_id = @StaffID)
+        BEGIN
+            RAISERROR('Invalid StaffID.',16,1);
+            RETURN;
+        END
+
+        IF EXISTS (
+            SELECT 1
+            FROM @Items it
+            WHERE dbo.fn_StockAvailable(@StoreID, it.product_id, it.quantity) = 0
+            )
+            BEGIN
+                RAISERROR('Insufficient stock for one or more products.',16,1);
+                RETURN;
+            END
+        BEGIN TRAN;
+
+           INSERT INTO sales.orders 
+    (customer_id, store_id, staff_id, order_status, order_date, required_date)
+VALUES 
+    (@CustomerID, @StoreID, @StaffID, 1, @OrderDate, DATEADD(DAY, 2, GETDATE()));
+
+            DECLARE @NewOrderID INT = SCOPE_IDENTITY();
+
+            INSERT INTO sales.order_items (order_id, item_id, product_id, quantity, list_price, discount)
+            SELECT 
+                @NewOrderID,
+                ROW_NUMBER() OVER (ORDER BY (SELECT 1)) AS item_id,
+                IT.product_id,
+                quantity,
+                ISNULL(IT.list_price, p.list_price),
+                ISNULL(discount, 0)
+            FROM @Items AS IT
+                JOIN production.products p ON it.product_id = p.product_id;
+
+        
+            UPDATE s
+            SET s.quantity = s.quantity - it.quantity
+            FROM production.stocks s
+                JOIN @Items it ON s.product_id = it.product_id
+            WHERE s.store_id = @StoreID;
+
+        COMMIT;
+
+        PRINT 'Order ' + CAST(@NewOrderID AS NVARCHAR(20)) + ' created successfully.';
+
+    END;
+GO
+
+    DECLARE @NewItems dbo.OrderItemType;
+    INSERT INTO @NewItems (product_id, quantity) VALUES (1, 2), (5, 1);
+
+    EXEC dbo.sp_InsertOrderValidated 
+        @CustomerID = 3,
+        @StoreID = 1,
+        @StaffID = 2,
+        @Items = @NewItems;
