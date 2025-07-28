@@ -29,8 +29,11 @@ namespace SimpleCalculator
                     case "M" :
                         WriteLine(firstNumber * secondNumber);
                         break;
+                    default:
+                        WriteLine("Invali1d option");
+                        break;
                 }
-                WriteLine(" press E to exit if you want to exit any other key to continue");
+                WriteLine("press E to exit if you want to exit any other key to continue");
                 ex = Convert.ToChar(ReadLine().ToUpper()) ;
             }
             
