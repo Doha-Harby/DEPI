@@ -1,4 +1,4 @@
-﻿namespace Bank
+namespace Bank
 {
     public class Program
     {
