@@ -10,7 +10,7 @@ namespace Bank.Models
 {
     internal class CurrentAccount : BankAccount
     {
-        public decimal OverdraftLimit { get; set; }
+        private decimal OverdraftLimit;
 
         public CurrentAccount(string fullName, string nationalId, string phoneNumber, string address, double balance, decimal overdraftLimit)
             : base(fullName, nationalId, phoneNumber, address, balance)

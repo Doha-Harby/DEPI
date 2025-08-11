@@ -12,7 +12,7 @@ namespace Bank
 
 
             //BankAccount account2 = new BankAccount(
-            //    fullName: "Doha ElShamy",
+            //    fullName: "Doha Harby",
             //    nationalId: "29811234567890",
             //    phoneNumber: "01012345678",
             //    address: "Cairo, Egypt",
@@ -27,7 +27,7 @@ namespace Bank
 
             // objects of Saving Account
             SavingAccount saving = new SavingAccount(
-                fullName: "Doha ElShamy",
+                fullName: "Doha Harby",
                 nationalId: "29811234567890",
                 phoneNumber: "01012345678",
                 address: "Cairo, Egypt",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEPI\\C#\\Bank\\Bank.csproj": {}
+    "D:\\DEPI\\C#\\Session11_BANK\\Bank\\Bank.csproj": {}
   },
   "projects": {
-    "D:\\DEPI\\C#\\Bank\\Bank.csproj": {
+    "D:\\DEPI\\C#\\Session11_BANK\\Bank\\Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEPI\\C#\\Bank\\Bank.csproj",
+        "projectUniqueName": "D:\\DEPI\\C#\\Session11_BANK\\Bank\\Bank.csproj",
         "projectName": "Bank",
-        "projectPath": "D:\\DEPI\\C#\\Bank\\Bank.csproj",
+        "projectPath": "D:\\DEPI\\C#\\Session11_BANK\\Bank\\Bank.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\DEPI\\C#\\Bank\\obj\\",
+        "outputPath": "D:\\DEPI\\C#\\Session11_BANK\\Bank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

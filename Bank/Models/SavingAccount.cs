@@ -9,7 +9,7 @@ namespace Bank.Models
 {
     internal class SavingAccount : BankAccount
     {
-        public decimal InterestRate { get; set; }
+        private decimal InterestRate;
 
         public SavingAccount(string fullName, string nationalId, string phoneNumber, string address, double balance, decimal interestRate)
                     : base(fullName, nationalId, phoneNumber, address, balance)
