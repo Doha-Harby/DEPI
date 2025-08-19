@@ -1,0 +1,14 @@
+D:\DEPI\Examination_System\obj\Debug\net9.0\Examination_System.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\Examination_System\obj\Debug\net9.0\Examination_System.AssemblyInfoInputs.cache
+D:\DEPI\Examination_System\obj\Debug\net9.0\Examination_System.AssemblyInfo.cs
+D:\DEPI\Examination_System\obj\Debug\net9.0\Examination_System.csproj.CoreCompileInputs.cache
+D:\DEPI\Examination_System\bin\Debug\net9.0\Examination_System.exe
+D:\DEPI\Examination_System\bin\Debug\net9.0\Examination_System.deps.json
+D:\DEPI\Examination_System\bin\Debug\net9.0\Examination_System.runtimeconfig.json
+D:\DEPI\Examination_System\bin\Debug\net9.0\Examination_System.dll
+D:\DEPI\Examination_System\bin\Debug\net9.0\Examination_System.pdb
+D:\DEPI\Examination_System\obj\Debug\net9.0\Examination_System.dll
+D:\DEPI\Examination_System\obj\Debug\net9.0\refint\Examination_System.dll
+D:\DEPI\Examination_System\obj\Debug\net9.0\Examination_System.pdb
+D:\DEPI\Examination_System\obj\Debug\net9.0\Examination_System.genruntimeconfig.cache
+D:\DEPI\Examination_System\obj\Debug\net9.0\ref\Examination_System.dll

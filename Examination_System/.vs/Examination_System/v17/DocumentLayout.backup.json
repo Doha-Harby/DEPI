@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEPI\\Examination_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|d:\\depi\\examination_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|d:\\depi\\examination_system\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|solutionrelative:models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|d:\\depi\\examination_system\\models\\exams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|solutionrelative:models\\exams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|d:\\depi\\examination_system\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|solutionrelative:models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|d:\\depi\\examination_system\\models\\theschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|solutionrelative:models\\theschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|d:\\depi\\examination_system\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|solutionrelative:models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|d:\\depi\\examination_system\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52611B6A-06BF-4538-A03C-76EE8CBB8BE7}|Examination_System.csproj|solutionrelative:models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEPI\\Examination_System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\DEPI\\Examination_System\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwKMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T18:16:42.567Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Instructors.cs",
+              "DocumentMoniker": "D:\\DEPI\\Examination_System\\Models\\Instructors.cs",
+              "RelativeDocumentMoniker": "Models\\Instructors.cs",
+              "ToolTip": "D:\\DEPI\\Examination_System\\Models\\Instructors.cs",
+              "RelativeToolTip": "Models\\Instructors.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:27:48.039Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Students.cs",
+              "DocumentMoniker": "D:\\DEPI\\Examination_System\\Models\\Students.cs",
+              "RelativeDocumentMoniker": "Models\\Students.cs",
+              "ToolTip": "D:\\DEPI\\Examination_System\\Models\\Students.cs",
+              "RelativeToolTip": "Models\\Students.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:29:14.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TheSchool.cs",
+              "DocumentMoniker": "D:\\DEPI\\Examination_System\\Models\\TheSchool.cs",
+              "RelativeDocumentMoniker": "Models\\TheSchool.cs",
+              "ToolTip": "D:\\DEPI\\Examination_System\\Models\\TheSchool.cs",
+              "RelativeToolTip": "Models\\TheSchool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T09:55:47.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Questions.cs",
+              "DocumentMoniker": "D:\\DEPI\\Examination_System\\Models\\Questions.cs",
+              "RelativeDocumentMoniker": "Models\\Questions.cs",
+              "ToolTip": "D:\\DEPI\\Examination_System\\Models\\Questions.cs",
+              "RelativeToolTip": "Models\\Questions.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAANkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T21:01:37.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "D:\\DEPI\\Examination_System\\Models\\Courses.cs",
+              "RelativeDocumentMoniker": "Models\\Courses.cs",
+              "ToolTip": "D:\\DEPI\\Examination_System\\Models\\Courses.cs",
+              "RelativeToolTip": "Models\\Courses.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:26:05.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exams.cs",
+              "DocumentMoniker": "D:\\DEPI\\Examination_System\\Models\\Exams.cs",
+              "RelativeDocumentMoniker": "Models\\Exams.cs",
+              "ToolTip": "D:\\DEPI\\Examination_System\\Models\\Exams.cs",
+              "RelativeToolTip": "Models\\Exams.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAwwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T18:36:15.052Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

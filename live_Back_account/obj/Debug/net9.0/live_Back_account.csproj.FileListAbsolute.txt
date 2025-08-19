@@ -1,0 +1,14 @@
+D:\DEPI\live_Back_account\bin\Debug\net9.0\live_Back_account.exe
+D:\DEPI\live_Back_account\bin\Debug\net9.0\live_Back_account.deps.json
+D:\DEPI\live_Back_account\bin\Debug\net9.0\live_Back_account.runtimeconfig.json
+D:\DEPI\live_Back_account\bin\Debug\net9.0\live_Back_account.dll
+D:\DEPI\live_Back_account\bin\Debug\net9.0\live_Back_account.pdb
+D:\DEPI\live_Back_account\obj\Debug\net9.0\live_Back_account.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\live_Back_account\obj\Debug\net9.0\live_Back_account.AssemblyInfoInputs.cache
+D:\DEPI\live_Back_account\obj\Debug\net9.0\live_Back_account.AssemblyInfo.cs
+D:\DEPI\live_Back_account\obj\Debug\net9.0\live_Back_account.csproj.CoreCompileInputs.cache
+D:\DEPI\live_Back_account\obj\Debug\net9.0\live_Back_account.dll
+D:\DEPI\live_Back_account\obj\Debug\net9.0\refint\live_Back_account.dll
+D:\DEPI\live_Back_account\obj\Debug\net9.0\live_Back_account.pdb
+D:\DEPI\live_Back_account\obj\Debug\net9.0\live_Back_account.genruntimeconfig.cache
+D:\DEPI\live_Back_account\obj\Debug\net9.0\ref\live_Back_account.dll
