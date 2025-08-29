@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEPI\\Examination_System\\Examination_System.csproj",
+      "projectUniqueName": "D:\\DEPI\\C#\\Session11_BANK\\Examination_System\\Examination_System.csproj",
       "projectName": "Examination_System",
-      "projectPath": "D:\\DEPI\\Examination_System\\Examination_System.csproj",
+      "projectPath": "D:\\DEPI\\C#\\Session11_BANK\\Examination_System\\Examination_System.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\DEPI\\Examination_System\\obj\\",
+      "outputPath": "D:\\DEPI\\C#\\Session11_BANK\\Examination_System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

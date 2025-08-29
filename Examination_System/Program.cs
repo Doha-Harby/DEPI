@@ -42,6 +42,33 @@ namespace HelloApp
             return null;
         }
 
+        private static Exams FindExamById(List<Exams> examsList, int examId)
+        {
+            Exams selectedExam = null;
+            foreach (var exam in examsList)
+            {
+                if (exam.ExamID == examId)
+                {
+                    selectedExam = exam;
+                    break;
+                }
+            }
+            return selectedExam;
+        }
+
+        private static Questions FindQuestionById(List<Questions> questionsList, int questionId)
+        {
+            Questions selectedQuestion = null;
+            foreach (var question in questionsList)
+            {
+                if (question.QuestionID == questionId)
+                {
+                    selectedQuestion = question;
+                    break;
+                }
+            }
+            return selectedQuestion;
+        }
         static void Main(string[] args)
         {
             #region ini
@@ -275,7 +302,7 @@ namespace HelloApp
                             Console.WriteLine("Invalid Exam ID.");
                             break;
                         }
-                        Exams examToRemove = selectedCourse.CoursesExams.Find(e => e.ExamID == examId);
+                        Exams examToRemove = FindExamById(selectedCourse.CoursesExams, examId);
                         if (examToRemove != null)
                         {
                             selectedCourse.RemoveExam(examToRemove);
@@ -315,7 +342,7 @@ namespace HelloApp
                             Console.WriteLine("Invalid Exam ID.");
                             break;
                         }
-                        Exams examToEdit = selectedCourse.CoursesExams.Find(e => e.ExamID == examId);
+                        Exams examToEdit = FindExamById(selectedCourse.CoursesExams, examId);
                         if (examToEdit != null)
                         {
                             examToEdit.EditExam();
@@ -355,7 +382,7 @@ namespace HelloApp
                             Console.WriteLine("Invalid Exam ID.");
                             break;
                         }
-                        Exams selectedExam = selectedCourse.CoursesExams.Find(e => e.ExamID == examId);
+                        Exams selectedExam = FindExamById(selectedCourse.CoursesExams, examId);
                         if (selectedExam == null)
                         {
                             Console.WriteLine("Exam not found in this course.");
@@ -412,7 +439,7 @@ namespace HelloApp
                             Console.WriteLine("Invalid Exam ID.");
                             break;
                         }
-                        selectedExam = selectedCourse.CoursesExams.Find(e => e.ExamID == examId);
+                        selectedExam = FindExamById(selectedCourse.CoursesExams, examId);
                         if (selectedExam == null)
                         {
                             Console.WriteLine("Exam not found in this course.");
@@ -429,7 +456,7 @@ namespace HelloApp
                             Console.WriteLine("Invalid Question ID.");
                             break;
                         }
-                        Questions questionToEdit = selectedExam.ExamQuestions.Find(q => q.QuestionID == questionId);
+                        Questions questionToEdit = FindQuestionById(selectedExam.ExamQuestions, questionId);
                         if (questionToEdit != null)
                         {
                             questionToEdit.EditQuestion();
@@ -477,7 +504,7 @@ namespace HelloApp
                             Console.WriteLine("Invalid Course ID.");
                             break;
                         }
-                        selectedCourse = selectedStudent.EnrolledCourses.Find(c => c.CourseID == courseId);
+                        selectedCourse = FindCourseById(selectedStudent.EnrolledCourses, courseId);
                         if (selectedCourse == null)
                         {
                             Console.WriteLine("Student is not enrolled in this course.");
@@ -494,7 +521,7 @@ namespace HelloApp
                             Console.WriteLine("Invalid Exam ID.");
                             break;
                         }
-                        selectedExam = selectedCourse.CoursesExams.Find(e => e.ExamID == examId);
+                        selectedExam = FindExamById(selectedCourse.CoursesExams, examId);
                         if (selectedExam == null)
                         {
                             Console.WriteLine("Exam not found in this course.");
