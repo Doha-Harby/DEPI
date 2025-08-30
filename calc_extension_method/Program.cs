@@ -1,6 +1,21 @@
-﻿using System;
+using System;
 
 delegate double delCal(double x, double y);
+
+public static class Extensions
+{
+    public static double Calc(this double a, double b, string op)
+    {
+        return op switch
+        {
+            "+" => a + b,
+            "-" => a - b,
+            "*" => a * b,
+            "/" => b != 0 ? a / b : throw new DivideByZeroException("Divide by zero not allowed"),
+            _ => throw new InvalidOperationException("Unknown operation")
+        };
+    }
+}
 
 class Program
 {
@@ -15,22 +30,8 @@ class Program
         Console.Write("Enter the second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
-       
-        delCal operation = op switch
-        {
-            "+" => Add,
-            "-" => Sub,
-            "*" => Mul,
-            "/" => Div,
-            _ => throw new InvalidOperationException("Unknown operation")
-        };
+        double result = num1.Calc(num2, op);
 
-        Console.WriteLine($"Result = {operation(num1, num2)}");
+        Console.WriteLine($"Result = {result}");
     }
-
-    static double Add(double a, double b) => a + b;
-    static double Sub(double a, double b) => a - b;
-    static double Mul(double a, double b) => a * b;
-    static double Div(double a, double b) => b != 0 ? a / b
-            : throw new DivideByZeroException("Divide by zero not allowed");
 }
