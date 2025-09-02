@@ -1,23 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DEPI\\calc_extension_method\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{178EC2D5-EB18-4EF0-BBF9-7294F46CF635}|calc_extension_method.csproj|d:\\depi\\calc_extension_method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{178EC2D5-EB18-4EF0-BBF9-7294F46CF635}|calc_extension_method.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{178EC2D5-EB18-4EF0-BBF9-7294F46CF635}|calc_extension_method.csproj|d:\\depi\\calc_extension_method\\extentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{178EC2D5-EB18-4EF0-BBF9-7294F46CF635}|calc_extension_method.csproj|solutionrelative:extentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\DEPI\\C#\\Session11_BANK\\calc_extension_method\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 351,
+          "DockedHeight": 620,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -35,34 +26,12 @@
           ]
         },
         {
-          "DockedHeight": 49,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 82,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Extentions.cs",
-              "DocumentMoniker": "D:\\DEPI\\calc_extension_method\\Extentions.cs",
-              "RelativeDocumentMoniker": "Extentions.cs",
-              "ToolTip": "D:\\DEPI\\calc_extension_method\\Extentions.cs",
-              "RelativeToolTip": "Extentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:50:22.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEPI\\calc_extension_method\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\DEPI\\calc_extension_method\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:39:31.758Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

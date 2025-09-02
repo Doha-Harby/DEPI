@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEPI\\calc_extension_method\\calc_extension_method.csproj": {}
+    "D:\\DEPI\\C#\\Session11_BANK\\calc_extension_method\\calc_extension_method.csproj": {}
   },
   "projects": {
-    "D:\\DEPI\\calc_extension_method\\calc_extension_method.csproj": {
+    "D:\\DEPI\\C#\\Session11_BANK\\calc_extension_method\\calc_extension_method.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEPI\\calc_extension_method\\calc_extension_method.csproj",
+        "projectUniqueName": "D:\\DEPI\\C#\\Session11_BANK\\calc_extension_method\\calc_extension_method.csproj",
         "projectName": "calc_extension_method",
-        "projectPath": "D:\\DEPI\\calc_extension_method\\calc_extension_method.csproj",
+        "projectPath": "D:\\DEPI\\C#\\Session11_BANK\\calc_extension_method\\calc_extension_method.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\DEPI\\calc_extension_method\\obj\\",
+        "outputPath": "D:\\DEPI\\C#\\Session11_BANK\\calc_extension_method\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
