@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 delegate double delCal(double x, double y);
 
