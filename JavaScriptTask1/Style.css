@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+    background: linear-gradient(to left ,lightblue , lightgreen );
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+input[type="text"],select{
+    background-color: rgb(222, 228, 231);
+}
+
+button{
+    background-color: lightcoral;
+    border-radius: 5px;
+    box-shadow: 30 10 1 black ;
+    border: 2px rgb(225, 107, 107) solid ;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    min-height: 100px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
