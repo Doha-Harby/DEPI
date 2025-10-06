@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header class="header">
+    <a href="#" class="logo">
+        <img src="~/images/task_6/logo.png" alt="logo" />
+    </a>
+
+    ```
+    <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Cart</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+    ```
+
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Welcome to Our Clothes Shop</h3>
+        <p>Discover the latest trends and timeless classics in fashion. Quality and style at your fingertips.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h1 class="heading">Our <span>Products</span></h1>
+
+    ```
+    <div class="box-container">
+        <div class="box">
+            <img src="~/images/task_6/clothes1.jpg" alt="Clothes 1" />
+            <h3>Casual T-Shirt</h3>
+            <div class="price">$20.00 <span>$25.00</span></div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+        <div class="box">
+            <img src="~/images/task_6/clothes2.jpg" alt="Clothes 2" />
+            <h3>Elegant Dress</h3>
+            <div class="price">$45.00 <span>$55.00</span></div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+        <div class="box">
+            <img src="~/images/task_6/clothes3.jpg" alt="Clothes 3" />
+            <h3>Classic Jeans</h3>
+            <div class="price">$35.00 <span>$40.00</span></div>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    </div>
+    ```
+
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"><span>About</span> Us</h1>
+
+    ```
+    <div class="row">
+        <div class="image">
+            <img src="~/images/task_6/about.jpg" alt="About Us" />
+        </div>
+
+        <div class="content">
+            <h3>Why Choose Us?</h3>
+            <p>We offer the best quality clothes at affordable prices. Our collection is carefully curated to meet every style and occasion.</p>
+            <p>Shop with confidence and enjoy fast delivery, secure payment, and excellent customer service.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+    ```
+
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact</span> Us</h1>
+
+    ```
+    <div class="row">
+        <form action="#">
+            <input type="text" placeholder="Name" class="box" />
+            <input type="email" placeholder="Email" class="box" />
+            <input type="number" placeholder="Phone" class="box" />
+            <textarea class="box" placeholder="Message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+        </form>
+
+        <div class="image">
+            <img src="~/images/task_6/contact.jpg" alt="Contact" />
+        </div>
+    </div>
+    ```
+
+</section>
+
+<footer class="footer">
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    ```
+    <div class="credit">
+        Created by <span>Doha</span> | All rights reserved
+    </div>
+    ```
+
+</footer>
+
+<link rel="stylesheet" href="~/assets/TASK6.css" />
+<script src="~/assets/TASK6.js"></script>
