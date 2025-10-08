@@ -1,0 +1,45 @@
+﻿@model Staff
+@{
+    ViewData["Title"] = "Add Staff";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-light text-dark text-center py-4 rounded-top-4">
+            <h2 class="mb-0">Add New Staff Member</h2>
+        </div>
+        <div class="card-body p-5">
+            <form asp-action="AddStaff" method="post">
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-bold text-secondary"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter name" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Position" class="form-label fw-bold text-secondary"></label>
+                    <input asp-for="Position" class="form-control" placeholder="Enter position" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label fw-bold text-secondary"></label>
+                    <input asp-for="Email" class="form-control" type="email" placeholder="Enter email" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Phone" class="form-label fw-bold text-secondary"></label>
+                    <input asp-for="Phone" class="form-control" placeholder="Enter phone" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Salary" class="form-label fw-bold text-secondary"></label>
+                    <input asp-for="Salary" class="form-control" placeholder="Enter Salary" />
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg px-4">Save</button>
+                    <a href="@Url.Action("Index", "Staff")" class="btn btn-outline-secondary btn-lg ms-2 px-4">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

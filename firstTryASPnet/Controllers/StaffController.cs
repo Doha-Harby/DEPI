@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using firstTryASPnet.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace firstTryASPnet.Controllers
 {
@@ -17,7 +18,7 @@ namespace firstTryASPnet.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddStaff(int staffID)
+        public IActionResult AddStaff(StaffModel staff)
         {
             ViewData["Title"] = " Add Staff";
             return View();

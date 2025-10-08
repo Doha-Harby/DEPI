@@ -1,0 +1,6 @@
+D:\DEPI\DEPI's_tasks\firstTryASPnet\wwwroot\assets\images\custom-select.png
+D:\DEPI\DEPI's_tasks\firstTryASPnet\wwwroot\assets\images\favicon.png
+D:\DEPI\DEPI's_tasks\firstTryASPnet\wwwroot\assets\images\free-demo.jpg
+D:\DEPI\DEPI's_tasks\firstTryASPnet\wwwroot\assets\images\logo-icon.png
+D:\DEPI\DEPI's_tasks\firstTryASPnet\wwwroot\assets\images\logo-text.png
+D:\DEPI\DEPI's_tasks\firstTryASPnet\wwwroot\assets\images\logo.png

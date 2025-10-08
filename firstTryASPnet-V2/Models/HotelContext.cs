@@ -1,0 +1,17 @@
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace firstTryASPnet.Models
+{
+    public class HotelContext : DbContext
+    {
+        public DbSet<Room> Room { get; set; }
+        public DbSet<Staff> Staff { get; set; }
+
+     
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("server=DESKTOP-24COVKG;Database=Hotel;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
+           
+        }
+    }
+}

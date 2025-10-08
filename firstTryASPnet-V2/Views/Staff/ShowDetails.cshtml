@@ -1,0 +1,42 @@
+﻿@model Staff
+
+@{
+    ViewData["Title"] = "Staff Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-light text-dark text-center py-4 rounded-top-4">
+            <h1 class="display-6 mb-0">Staff Details</h1>
+        </div>
+
+        <div class="card-body p-5">
+            <dl class="row fs-5">
+                <dt class="col-sm-3 fw-bold text-secondary">ID:</dt>
+                <dd class="col-sm-9">@Model.Id</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Name:</dt>
+                <dd class="col-sm-9">@Model.Name</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Position:</dt>
+                <dd class="col-sm-9">@Model.Position</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Email:</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Phone:</dt>
+                <dd class="col-sm-9">@Model.Phone</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Salary:</dt>
+                <dd class="col-sm-9">@Model.Salary</dd>
+            </dl>
+        </div>
+
+        <div class="card-footer text-center bg-white rounded-bottom-4 py-3">
+            <a href="@Url.Action("ShowAll", "Staff")" class="btn btn-outline-primary btn-lg px-4">
+                Back to List
+            </a>
+        </div>
+    </div>
+</div>

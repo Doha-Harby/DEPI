@@ -1,0 +1,50 @@
+﻿@model List<Room> 
+@{
+    ViewData["Title"] = "Rooms";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-light text-dark text-center py-4 rounded-top-4">
+            <h1 class="display-6 mb-0">Hotel Rooms</h1>
+            <p class="mb-0 text-secondary">All rooms will display here</p>
+        </div>
+
+        <div class="card-body p-5">
+            <table class="table table-bordered table-hover align-middle text-center">
+                <thead class="table-light text-secondary">
+                    <tr>
+                        <th>Room Number</th>
+                        <th>Type</th>
+                        <th>Price per Night</th>
+                        <th>Availability</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var room in Model)
+                    {
+                        <tr>
+                            <td>@room.RoomNumber</td>
+                            <td>@room.RoomType</td>
+                            <td>@room.Price</td>
+                            <td>@room.Availability</td>
+                            <td>
+                                <a href="@Url.Action("ShowDetails", "Rooms", new { id = room.Id })" class="btn btn-outline-primary btn-sm px-3">
+                                    View Details
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card-footer text-center bg-white rounded-bottom-4 py-3">
+            <a href="@Url.Action("AddRoom", "Rooms")" class="btn btn-primary btn-lg px-4">
+                Add New Room
+            </a>
+        </div>
+    </div>
+</div>
