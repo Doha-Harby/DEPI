@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Dashboard - Hotel Management";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="dashboard mt-4">
+
+    <!-- Greeting -->
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold text-dark">Welcome to Da7Da7 Hotel Dashboard</h1>
+        <p class="text-muted fs-5">Manage rooms, staff, and reservations easily from one place.</p>
+    </div>
+
+    <!-- Stats Overview -->
+    <div class="row g-4 mb-5">
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 text-center">
+                <div class="card-body">
+                    <h5 class="text-secondary">Total Rooms</h5>
+                    <h2 class="fw-bold text-primary">48</h2>
+                    <p class="text-muted">Available & Booked</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 text-center">
+                <div class="card-body">
+                    <h5 class="text-secondary">Staff Members</h5>
+                    <h2 class="fw-bold text-success">23</h2>
+                    <p class="text-muted">Active Employees</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 text-center">
+                <div class="card-body">
+                    <h5 class="text-secondary">Current Guests</h5>
+                    <h2 class="fw-bold text-warning">37</h2>
+                    <p class="text-muted">Checked-in</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 text-center">
+                <div class="card-body">
+                    <h5 class="text-secondary">Revenue</h5>
+                    <h2 class="fw-bold text-danger">$12,540</h2>
+                    <p class="text-muted">This Month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card bg-primary text-white shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h4 class="mb-3">Manage Rooms</h4>
+                    <p class="mb-4">View, add, or edit hotel rooms and availability.</p>
+                    <a asp-controller="Rooms" asp-action="ShowAll" class="btn btn-light text-primary fw-bold">Go to Rooms</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-success text-white shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h4 class="mb-3">Manage Staff</h4>
+                    <p class="mb-4">Add new employees and manage their roles.</p>
+                    <a asp-controller="Staff" asp-action="ShowAll" class="btn btn-light text-success fw-bold">Go to Staff</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-warning text-dark shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h4 class="mb-3">Reservations</h4>
+                    <p class="mb-4">View and manage guest bookings.</p>
+                    <a asp-controller="Reservations" asp-action="ShowAll" class="btn btn-dark fw-bold">Go to Reservations</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Example: You can add dashboard logic here
+        console.log("Hotel Dashboard Loaded Successfully");
+    </script>
+}

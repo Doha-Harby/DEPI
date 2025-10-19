@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DEPI\\firstTryASPnet\\",
+  "WorkspaceRootPath": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\views\\rooms\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\views\\rooms\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\rooms\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\views\\staff\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\views\\staff\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\staff\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\views\\rooms\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\views\\rooms\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\rooms\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\views\\staff\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\views\\staff\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\staff\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet\\migrations\\20251008212812_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\depi\u0027s_tasks\\firsttryaspnet-v2\\migrations\\20251008212812_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:migrations\\20251008212812_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -56,76 +56,71 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AddStaff.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Views\\Staff\\AddStaff.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Staff\\AddStaff.cshtml",
               "RelativeDocumentMoniker": "Views\\Staff\\AddStaff.cshtml",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Views\\Staff\\AddStaff.cshtml",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Staff\\AddStaff.cshtml",
               "RelativeToolTip": "Views\\Staff\\AddStaff.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACIAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:54:09.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:54:09.063Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ShowDetails.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Views\\Rooms\\ShowDetails.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Rooms\\ShowDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\ShowDetails.cshtml",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Views\\Rooms\\ShowDetails.cshtml",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Rooms\\ShowDetails.cshtml",
               "RelativeToolTip": "Views\\Rooms\\ShowDetails.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:52:04.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:52:04.136Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:48:08.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:48:08.552Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ShowAll.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Views\\Rooms\\ShowAll.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Rooms\\ShowAll.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\ShowAll.cshtml",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Views\\Rooms\\ShowAll.cshtml",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Rooms\\ShowAll.cshtml",
               "RelativeToolTip": "Views\\Rooms\\ShowAll.cshtml",
               "ViewState": "AgIAABMAAAAAAAAAAAAAACEAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:47:28.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:47:28.638Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ShowDetails.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Views\\Staff\\ShowDetails.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Staff\\ShowDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\Staff\\ShowDetails.cshtml",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Views\\Staff\\ShowDetails.cshtml",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Views\\Staff\\ShowDetails.cshtml",
               "RelativeToolTip": "Views\\Staff\\ShowDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:46:47.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:46:47.024Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RoomsController.cs",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Controllers\\RoomsController.cs",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Controllers\\RoomsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoomsController.cs",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Controllers\\RoomsController.cs*",
-              "RelativeToolTip": "Controllers\\RoomsController.cs*",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-08T21:41:48.579Z",
               "EditorCaption": ""
@@ -134,53 +129,49 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Room.cs",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Models\\Room.cs",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Models\\Room.cs",
               "RelativeDocumentMoniker": "Models\\Room.cs",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Models\\Room.cs",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Models\\Room.cs",
               "RelativeToolTip": "Models\\Room.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T21:41:43.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:41:43.139Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "StaffController.cs",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Controllers\\StaffController.cs",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Controllers\\StaffController.cs",
               "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Controllers\\StaffController.cs",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Controllers\\StaffController.cs",
               "RelativeToolTip": "Controllers\\StaffController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T21:31:55.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:31:55.956Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Staff.cs",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Models\\Staff.cs",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Models\\Staff.cs",
               "RelativeDocumentMoniker": "Models\\Staff.cs",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Models\\Staff.cs",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Models\\Staff.cs",
               "RelativeToolTip": "Models\\Staff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T21:31:44.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:31:44.367Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "20251008212812_v1.cs",
-              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet\\Migrations\\20251008212812_v1.cs",
+              "DocumentMoniker": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Migrations\\20251008212812_v1.cs",
               "RelativeDocumentMoniker": "Migrations\\20251008212812_v1.cs",
-              "ToolTip": "D:\\DEPI\\firstTryASPnet\\Migrations\\20251008212812_v1.cs",
+              "ToolTip": "D:\\DEPI\\DEPI\u0027s_tasks\\firstTryASPnet-V2\\Migrations\\20251008212812_v1.cs",
               "RelativeToolTip": "Migrations\\20251008212812_v1.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T21:28:13.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:28:13.973Z"
             }
           ]
         }

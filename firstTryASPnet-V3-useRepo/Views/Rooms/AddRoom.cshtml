@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Add Room";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-light text-dark text-center py-4 rounded-top-4">
+            <h2 class="mb-0">Add New Room</h2>
+        </div>
+        <div class="card-body p-5">
+            <form asp-action="AddRoom" method="post" class="form-horizontal" style="max-width:500px; margin:auto;">
+                <div class="mb-3">
+                    <label for="RoomNumber" class="form-label fw-bold text-secondary">Room Number</label>
+                    <input type="text" id="RoomNumber" name="RoomNumber" class="form-control" placeholder="e.g. 101" required />
+                </div>
+
+                <div class="mb-3">
+                    <label for="RoomType" class="form-label fw-bold text-secondary">Room Type</label>
+                    <select id="RoomType" name="RoomType" class="form-select" required>
+                        <option value="">-- Select Type --</option>
+                        <option value="Single">Single</option>
+                        <option value="Double">Double</option>
+                        <option value="Suite">Suite</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Price" class="form-label fw-bold text-secondary">Price per Night</label>
+                    <input type="number" id="Price" name="Price" class="form-control" placeholder="e.g. 1200" min="0" required />
+                </div>
+
+                <div class="mb-3">
+                    <label for="Availability" class="form-label fw-bold text-secondary">Availability</label>
+                    <select id="Availability" name="Availability" class="form-select" required>
+                        <option value="">-- Select Status --</option>
+                        <option value="Available">Available</option>
+                        <option value="Occupied">Occupied</option>
+                        <option value="Maintenance">Maintenance</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Notes" class="form-label fw-bold text-secondary">Notes (optional)</label>
+                    <input type="text" id="Notes" name="Notes" class="form-control" placeholder="Sea view, floor 3, etc." />
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg px-4">Save Room</button>
+                    <a asp-action="Index" class="btn btn-outline-secondary btn-lg ms-2 px-4">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿@model Room
+
+@{
+    ViewData["Title"] = "Room Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-light text-dark text-center py-4 rounded-top-4">
+            <h1 class="display-6 mb-0">Room Details</h1>
+        </div>
+
+        ```
+        <div class="card-body p-5">
+            <dl class="row fs-5">
+                <dt class="col-sm-3 fw-bold text-secondary">ID:</dt>
+                <dd class="col-sm-9">@Model.Id</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Room Number:</dt>
+                <dd class="col-sm-9">@Model.RoomNumber</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Room Type:</dt>
+                <dd class="col-sm-9">@Model.RoomType</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Price:</dt>
+                <dd class="col-sm-9">@Model.Price</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Availability:</dt>
+                <dd class="col-sm-9">@Model.Availability</dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Notes:</dt>
+                <dd class="col-sm-9">@Model.Notes</dd>
+            </dl>
+        </div>
+
+        <div class="card-footer text-center bg-white rounded-bottom-4 py-3">
+            <a href="@Url.Action("ShowAll", "Rooms")" class="btn btn-outline-primary btn-lg px-4">
+                Back to List
+            </a>
+        </div>
+    </div>
+    ```
+
+</div>

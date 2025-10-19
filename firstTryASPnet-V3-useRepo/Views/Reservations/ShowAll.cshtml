@@ -1,0 +1,56 @@
+﻿@model List<Reservation>
+
+@{
+    ViewData["Title"] = "Reservations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+
+        <div class="card-header bg-light text-dark text-center py-4 rounded-top-4">
+            <h1 class="display-6 mb-0">Reservations List</h1>
+        </div>
+
+        <div class="card-body p-5">
+            <table class="table table-bordered table-hover align-middle text-center">
+                <thead class="table-light text-secondary">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Room #</th>
+                        <th>Check-In</th>
+                        <th>Check-Out</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Email</td>
+                            <td>@item.RoomNumber</td>
+                            <td>@item.CheckInDate.ToShortDateString()</td>
+                            <td>@item.CheckOutDate.ToShortDateString()</td>
+                            <td>
+                                <a href="@Url.Action("ShowDetails", "Reservations", new { id = item.Id })"
+                                   class="btn btn-outline-primary btn-sm px-3">
+                                    View Details
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card-footer bg-white rounded-bottom-4 text-center py-3">
+            <a href="@Url.Action("AddReservation", "Reservations")" class="btn btn-success btn-lg px-4">
+                Add New Reservation
+            </a>
+        </div>
+    </div>
+</div>

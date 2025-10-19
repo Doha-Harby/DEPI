@@ -1,0 +1,45 @@
+﻿@model Reservation
+
+@{
+    ViewData["Title"] = "Reservation Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-light text-dark text-center py-4 rounded-top-4">
+            <h1 class="display-6 mb-0">Reservation Details</h1>
+        </div>
+
+        <div class="card-body p-5">
+            <dl class="row">
+                <dt class="col-sm-3">Name</dt>
+                <dd class="col-sm-9">@Model.Name</dd>
+
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
+
+                <dt class="col-sm-3">Room Number</dt>
+                <dd class="col-sm-9">@Model.RoomNumber</dd>
+
+                <dt class="col-sm-3">Check-In Date</dt>
+                <dd class="col-sm-9">@Model.CheckInDate.ToShortDateString()</dd>
+
+                <dt class="col-sm-3">Check-Out Date</dt>
+                <dd class="col-sm-9">@Model.CheckOutDate.ToShortDateString()</dd>
+
+                @if (!string.IsNullOrEmpty(Model.Notes))
+                {
+                    <dt class="col-sm-3">Notes</dt>
+                    <dd class="col-sm-9">@Model.Notes</dd>
+                }
+            </dl>
+        </div>
+
+        <div class="card-footer bg-white rounded-bottom-4 text-center py-3">
+            <a href="@Url.Action("ShowAll", "Reservations")" class="btn btn-secondary btn-lg px-4">
+                Back to List
+            </a>
+        </div>
+    </div>
+</div>

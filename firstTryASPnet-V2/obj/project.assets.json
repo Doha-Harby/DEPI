@@ -5043,11 +5043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEPI\\firstTryASPnet\\firstTryASPnet.csproj",
+      "projectUniqueName": "D:\\DEPI\\DEPI's_tasks\\firstTryASPnet-V2\\firstTryASPnet.csproj",
       "projectName": "firstTryASPnet",
-      "projectPath": "D:\\DEPI\\firstTryASPnet\\firstTryASPnet.csproj",
+      "projectPath": "D:\\DEPI\\DEPI's_tasks\\firstTryASPnet-V2\\firstTryASPnet.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\DEPI\\firstTryASPnet\\obj\\",
+      "outputPath": "D:\\DEPI\\DEPI's_tasks\\firstTryASPnet-V2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

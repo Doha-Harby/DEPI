@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet-v3-userepo\\views\\reservations\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\reservations\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet-v3-userepo\\views\\reservations\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\reservations\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet-v3-userepo\\views\\reservations\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\reservations\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet-v3-userepo\\views\\staff\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\staff\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|d:\\depi\\firsttryaspnet-v3-userepo\\views\\staff\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F2E5109-0615-41C8-8956-5042489F06D3}|firstTryASPnet.csproj|solutionrelative:views\\staff\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddReservation.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Reservations\\AddReservation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\AddReservation.cshtml",
+              "ToolTip": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Reservations\\AddReservation.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\AddReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T22:47:26.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowDetails.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Reservations\\ShowDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\ShowDetails.cshtml",
+              "ToolTip": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Reservations\\ShowDetails.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\ShowDetails.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T22:47:12.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Reservations\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\ShowAll.cshtml",
+              "ToolTip": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Reservations\\ShowAll.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\ShowAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T22:46:51.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Staff\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Staff\\ShowAll.cshtml",
+              "ToolTip": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Staff\\ShowAll.cshtml",
+              "RelativeToolTip": "Views\\Staff\\ShowAll.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T22:45:47.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddStaff.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Staff\\AddStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Staff\\AddStaff.cshtml",
+              "ToolTip": "D:\\DEPI\\firstTryASPnet-V3-useRepo\\Views\\Staff\\AddStaff.cshtml",
+              "RelativeToolTip": "Views\\Staff\\AddStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T22:45:45.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
